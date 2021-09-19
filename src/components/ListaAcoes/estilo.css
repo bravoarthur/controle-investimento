@@ -1,0 +1,86 @@
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	
+	font-weight: 620;
+	background-color: #EEE;
+	font-size: 12pt;
+}
+@media(max-width: 1000px) {
+	th {
+	 font-size: 8pt;
+	}
+	td{
+	font-size: 8pt;
+	}
+	
+   }
+
+.negativo{
+
+	color: rgb(206, 18, 18);
+	font-weight: 550;
+		
+}
+
+.positivo{
+
+	color: rgb(5, 143, 5);
+	font-weight: 600;
+}
+
+.header{
+
+	font-weight: 500;
+}
+
+.fade{
+
+  opacity: 0;
+  transition: all 600ms 
+}
+
+.botaoVender{
+
+	color: #9699ac;
+	cursor: pointer;
+	
+}
+
+@media(max-width: 1000px) {
+	.botaoApagar {
+		
+		font-weight: 500;
+		line-height: 1.55;
+		padding: 2.5px 4px;
+		font-size: 0.500rem;
+	}
+   }
+
+
+.ajusteFoot{
+
+	font-weight: 600;
+}
+
+.botaoDelete{
+
+	cursor:pointer;
+	color: #9699ac;
+}
+
+
+
+

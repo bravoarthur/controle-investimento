@@ -1,0 +1,20 @@
+.subTexto{
+
+    font-size: 17pt;
+    color: rgb(158, 158, 158);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 3mm;
+    text-align: center;
+    width: 50;
+
+    
+}
+
+.seletorUsuario{
+
+    width: 550px;
+    margin: auto;
+    margin-top: 15pt;
+    margin-bottom: 7pt;
+    
+}
