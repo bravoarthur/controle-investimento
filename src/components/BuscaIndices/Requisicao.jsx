@@ -16,7 +16,10 @@ async function Requisicao(codigo){
 
     
     //HG BRASIL
-    const API_KEY = 'a4c03c31'
+    //LOCALHOST
+    //const API_KEY = 'a4c03c31' 
+    //GHPAGES
+    const API_KEY = '03421e3e'
     const URL = `https://api.hgbrasil.com/finance/stock_price?key=${API_KEY}&symbol=${codigo}&format=json-cors`
 
     const options = {
