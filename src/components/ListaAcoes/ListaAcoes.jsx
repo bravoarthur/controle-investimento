@@ -235,7 +235,6 @@ function ListaAcoes({enviaAcoes, apagaAcao}) {
 
                 <tbody>
                     
-
                     {lista.map((item, key) => {
                      
                        let format = ''
@@ -257,14 +256,9 @@ function ListaAcoes({enviaAcoes, apagaAcao}) {
                             <td><DeleteForeverIcon style={{ fontSize: 35 }} onClick={_handleApagaAcao}className='botaoDelete'>Apagar</DeleteForeverIcon></td>
                             <td><SwapVertIcon onClick={_handleVender}className='botaoVender' style={{ fontSize: 38 }}>Vender</SwapVertIcon></td>
                                                           
-                            </tr>
-
+                        </tr>
 
                     })}
-
-
-
-
 
                 </tbody>
 

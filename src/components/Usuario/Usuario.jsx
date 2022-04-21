@@ -37,6 +37,7 @@ function Usuario({setUsuario}) {
             
             <form align="center" onSubmit={(event) => {
                 event.preventDefault()
+                
                 setUsuario(user)
                 }}>
 

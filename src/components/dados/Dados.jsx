@@ -219,6 +219,16 @@ const _handleUsuarioExistente = () => {
 
 }
  
+const _setUsuarioAcao = (usuario) => {
+    
+    setUsuario(usuario)
+
+    const listaRecuperada = localStorage.getItem(`acoes${usuario}`)
+    
+    setAcoes(JSON.parse(listaRecuperada) || [])
+    
+}
+
 
 const _handleEscolhaUsuario = () => {
 
@@ -228,16 +238,6 @@ const _handleEscolhaUsuario = () => {
 
         )
 }
-
-
-const _setUsuarioAcao = (usuario) => {
-
-    setUsuario(usuario)
-    setAcoes(JSON.parse(localStorage.getItem(`acoes${usuario}`) || []))
-
-}
-
-
 
 
 
